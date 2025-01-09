@@ -978,23 +978,3 @@ margin-bottom: 20px;
     color: var(--primary-color)
 }
 /*fototer*/
-/*menu-layout*/
-.menu-layout{
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    position: relative;
-}
-.menu{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    background-color: #ff0000;
-}
-.menu-catogories{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-/*menu-layout*/
