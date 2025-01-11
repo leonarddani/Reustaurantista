@@ -1,7 +1,6 @@
 {
-
     "categories": {
-        "Breakfast" : [
+        "Breakfast": [
             {
                 "name": "pancakes",
                 "price": 5.0,
@@ -62,7 +61,6 @@
                 "rating": 5.0,
                 "perparationTime": "15-20 mins"
             }
-      
         ],
         "Dessert": [
             {
