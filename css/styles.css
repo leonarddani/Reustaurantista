@@ -656,36 +656,43 @@ header {
 }
 
 /*Email-section*/
-/*testimonial-section*/
-.testmonial-section {
+
+/* Testimonials Section */
+.testimonials-section {
     padding: 60px 20px;
     padding-bottom: 150px;
     text-align: center;
     background-color: #fff;
 }
-.testimonial-title {
+
+.testimonials-title {
     margin-bottom: 15px;
 }
-.carusel-indicators {
+
+.carousel-indicators {
     margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.carusel-indicators .dot {
+
+.carousel-indicators .dot {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin: 0 5px;
+    margin: 0px 5px;
     background-color: #fdbe77;
     border-radius: 50%;
     cursor: pointer;
 }
-.carusel-indicators .dot.active {
+
+.carousel-indicators .dot.active {
     border: 4px solid var(--primary-color);
     height: 15px;
+    width: 15px;
 }
-.testimonial-carusel {
+
+.testimonial-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -693,7 +700,7 @@ header {
     gap: 50px;
 }
 
-.testimonial-carusel .carusel-arrow {
+.testimonial-carousel .carousel-arrow {
     background: none;
     border: none;
     font-size: 50px;
@@ -719,6 +726,7 @@ header {
     z-index: 10;
     padding: 20px;
 }
+
 .testimonial-card-first::before {
     content: "";
     position: absolute;
@@ -753,22 +761,24 @@ header {
     z-index: 10;
 }
 
-.testimonial-card-first .testimonial-card-name {
+.testimonial-card-first .testimonial-name {
     font-size: 18px;
 }
 
-.testimonial-card-first .testimonial-card-role {
+.testimonial-card-first .testimonial-role {
     font-size: 12px;
 }
+
 .testimonial-card-first .testimonial-quote {
-    font-size: 13px;
+    font-size: 20px;
     color: var(--primary-color);
 }
+
 .testimonial-card-first .testimonial-text {
     font-size: 12px;
 }
 
-/*middlecard*/
+/* Middle Card */
 .testimonial-card-middle {
     width: 450px;
     height: 450px;
@@ -784,13 +794,13 @@ header {
     content: "";
     position: absolute;
     background-color: #000;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     top: 0;
     left: -10px;
     border-radius: 60px;
     transform-style: preserve-3d;
-    transform: rotateX(30deg) rotateY(-10deg);
+    transform: rotateX(20deg) rotateY(-10deg);
     z-index: -1;
 }
 
@@ -798,8 +808,8 @@ header {
     content: "";
     position: absolute;
     background-color: var(--primary-color);
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     top: 0;
     left: 10px;
     border-radius: 60px;
@@ -809,30 +819,31 @@ header {
 }
 
 .testimonial-card-middle img {
-    width: 150px;
+    width: 150;
     height: 150px;
     border-radius: 100px;
     margin-top: -50px;
     z-index: 10;
 }
 
-.testimonial-card-middle .testimonial-card-name {
+.testimonial-card-middle .testimonial-name {
     font-size: 24px;
 }
 
-.testimonial-card-middle .testimonial-card-role {
+.testimonial-card-middle .testimonial-role {
     font-size: 18px;
 }
+
 .testimonial-card-middle .testimonial-quote {
-    font-size: 20px;
+    font-size: 30px;
     color: var(--primary-color);
 }
+
 .testimonial-card-middle .testimonial-text {
-    font-size: 12px;
+    font-size: 18px;
 }
 
-/*middlecard*/
-/*third-card*/
+/* Third Card */
 .testimonial-card-third {
     width: 350px;
     height: 350px;
@@ -842,6 +853,7 @@ header {
     z-index: 10;
     padding: 20px;
 }
+
 .testimonial-card-third::before {
     content: "";
     position: absolute;
@@ -876,23 +888,24 @@ header {
     z-index: 10;
 }
 
-.testimonial-card-third .testimonial-card-name {
+.testimonial-card-third .testimonial-name {
     font-size: 18px;
 }
 
-.testimonial-card-third .testimonial-card-role {
+.testimonial-card-third .testimonial-role {
     font-size: 12px;
 }
+
 .testimonial-card-third .testimonial-quote {
-    font-size: 13px;
+    font-size: 20px;
     color: var(--primary-color);
 }
+
 .testimonial-card-third .testimonial-text {
     font-size: 12px;
 }
 
-/*thirdcard*/
-/*testimonial-section*/
+/* Testimonials Section */
 
 /*fototer*/
 .footer-section {
